@@ -7,6 +7,7 @@
     position:fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
 }
 
 .nav__list{
@@ -16,15 +17,13 @@
    
     align-items: center;
     position: absolute;
-    border-top: 3px solid black;
+    height: 100vh;
     width: 80%;
     top: 65px;
     right: 0;
     bottom: 0;
- 
-    background-color: #007BFF;
-
-
+    background-color:#007BFF;
+    border-top: 1px solid black;
 
 }
 
